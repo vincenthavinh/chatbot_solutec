@@ -1,0 +1,215 @@
+
+
+    English (UK)	
+    Français (FR)	
+
+    SOLUTEC
+    Qui sommes-nous ?
+        De l'ambition
+        Des valeurs fortes
+        Nos implantations
+        Développement durable
+    Notre activité
+    Que faisons-nous ?
+        La valeur ajoutée SOLUTEC
+        Nos périmètres d'intervention
+        Nos clients
+    Votre carrière
+    SOLUTEC et vous
+        Le mot du président
+        Les métiers SOLUTEC
+        Accélérateur de carrière
+        Le + SOLUTEC
+    Rejoignez-nous
+    Intégrez nos équipes
+        L’ingé SOLUTEC
+        Les jobs SOLUTEC
+        Les stages SOLUTEC
+        Candidatures spontanées
+        Le recrutement
+        Nous rencontrer
+    Contact
+    Postulez !
+    Mentions légales
+    Plan du site
+    Page introuvable
+
+Être complet, savoir évoluer
+ 
+Accueil Notre activitéQue faisons-nous ? Nos périmètres d'intervention
+
+    SOLUTEC
+    Qui sommes-nous ?
+    Notre activité
+    Que faisons-nous ?
+        La valeur ajoutée SOLUTEC
+        Nos périmètres d'intervention
+        Nos clients
+    Votre carrière
+    SOLUTEC et vous
+    Rejoignez-nous
+    Intégrez nos équipes
+    Contact
+    Postulez !
+    Mentions légales
+    Plan du site
+    Page introuvable
+
+Pour quelle prestation ?
+
+Les systèmes d’information de nos clients, complexes, sont en mutation permanente. Nous faisons intervenir des consultants en ingénierie informatique à très fort potentiel. Grâce à leur parcours chez SOLUTEC, ils ont l’habitude des projets de grande envergure.
+4 pôles de compétences
+
+Les 4 pôles de compétences SOLUTEC réunissent un large spectre de technologies et de métiers, dans toutes les phases projet. Nous garantissons à nos clients, quel que soit leur système d’information, un accompagnement sur mesure.
+Maitrise
+d'œuvre
+Périmètres d'intervention Technologies
+
+En mode projet :
+
+    Recueil des besoins
+    Analyse et Conception
+    Rédaction des spécifications détaillées
+    Evaluation des délais de réalisation
+    Réalisation / Développement
+    Tests / Recette
+    Mise en production
+    Maintenance corrective et évolutive
+    …
+
+En mode maintenance
+
+    Gestion d’application
+    Réception des demandes clients
+    Priorisation des tâches
+    Définition de lots ou de patchs
+    Gestion des contraintes de production sur les planning et délais
+    …
+
+Périmètres d'intervention Technologies
+
+Méthode / Conception :
+
+    AGILE/SCRUM, MVC, UML, MERISE …
+
+Référentiel / Normes :
+
+    CMMI, CobiT, ITIL…
+
+Base de données / Décisionnel
+
+    SQL server, Oracle, Microsoft BI, Business Object, Informatica, SAS
+
+Progiciel :
+
+    SAP, Oracle application, PeopleSoft …
+
+Développement:
+
+    Microsoft .Net, Java/J2EE, PHP, …
+    Développement Mobile : iOS, Android, Windows phone, …
+    Autres langages/outils : Delphi, C/C++, …
+
+Grands Systèmes :
+
+    Cobol, PACBASE, JCL
+
+Maitrise
+d'ouvrage
+Périmètres d'intervention Technologies
+
+    Etude d’opportunité
+    Cadrage du projet
+    Analyse des besoins et rédaction du cahier des charges
+    Rédaction des spécifications
+    Relation client / Coordination / Pilotage
+
+    Respect des normes et process
+    Tests et Recette
+    Conduite du changement
+    …
+
+Périmètres d'intervention Technologies
+
+    MSProject, Planisware 5, Augéo, …
+    MSVisio, …
+    Outils d’analyse et de gestion des risques
+
+    Outils de suivi des tickets/mise en production
+    Logiciels internes aux entreprises
+    …
+
+Infrastructure
+et exploitation
+Périmètres d'intervention Technologies
+
+    Administration et exploitation des systèmes et réseaux
+    Déploiement et mise en production
+    Maintien en condition opérationnelle
+    Conception et dimensionnement des architectures systèmes et réseaux
+    Définition, respect et suivi de SLA
+
+    Veille technologique
+    Tests de stress de charge des infrastructures
+    Expertise technique
+    Support haut niveau
+    …
+
+Périmètres d'intervention Technologies
+
+    Systèmes Unix / Linux
+    Systèmes Microsoft
+    Serveurs d’application
+    Virtualisation
+    Ordonnancement
+    Sauvegarde et Archivage
+    Supervision et Analyse
+
+    Réseaux / Télécoms
+    Middleware
+    Bases de données
+    Cloud Computing
+    Hébergement
+    Stockage
+    …
+
+coordination
+et pilotage
+Périmètres d'intervention Méthodologies et Technologies
+
+    Cadrage de projet
+    Chiffrage
+    Planification
+    Coordination de projets
+    Management d’équipe
+    Gestion avancée des coûts et des budgets
+
+    Gestion des ressources et des compétences
+    Réalisation de tableaux de bord et suivis
+    Suivi des performances
+    Animation de réunions : Workshop, COPIL, COSTRAT, …
+    …
+
+Périmètres d'intervention Méthodologies et Technologies
+
+    Ms Project, Planisware 5, Augéo, …
+    Ms Sharepoint, Office Communicator, …
+    MsVisio, …
+    CMMI
+
+    CobiT
+    ITIL
+    Méthodologies et solutions propriétaires clients
+
+    Mentions légales
+    Plan du site
+
+Nos références
+Banque / Assurance / Finance
+Services
+Industrie
+Grande distribution
+Energie
+Transport
+Télécommunication & Média
+
