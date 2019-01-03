@@ -6,7 +6,6 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as ec
 from selenium.common.exceptions import NoSuchElementException
 
-	
 def fileToList(path):
 	file = open(path)
 	line = file.read()
@@ -14,23 +13,27 @@ def fileToList(path):
 	text = [x.lower() for x in text]
 	return text
 
+
 def cleanList(list, unwanted):
 	words = [word for word in list if word not in unwanted]
 	return words
 
+
 def returnStopwords(list, stopwords):
 	words = [word for word in list if word in stopwords]
 	return words
-	
+
 
 def listToFile(list, path):
 	with open(path, 'w') as f:
 		for item in list:
 			f.write("%s\n" % item)
 
+
 def changeExt(path, newExt):
-	return path.rsplit(".",1)[0] + newExt
-	
+	return path.rsplit(".", 1)[0] + newExt
+
+
 def open_browser():
 	print("starting web browser...")
 	browser = webdriver.Firefox(executable_path="../resources/geckodriver")
@@ -39,6 +42,7 @@ def open_browser():
 	browser.get("http://bescherelle.com/conjugueur.php")
 	browser.switch_to.frame("conjugueurweb")
 	return browser
+
 
 def returnVerbs(list, browser):
 	wait = WebDriverWait(browser, 15)
@@ -70,47 +74,3 @@ def returnVerbs(list, browser):
 			newList.append(word)
 	
 	return newList
-	
-
-	
-########################### MAIN EXECUTION #########################################
-
-stopwords = open("../resources/stopwords.txt").read().splitlines()
-directory = "../data/solutec.fr/"
-filepath = "../data/solutec.fr/de-l-ambition.txt"
-
-
-list = fileToList(filepath)
-
-toRemove = returnStopwords(list, stopwords)
-listToFile(toRemove, changeExt(filepath, ".stopwords"))
-
-list = cleanList(list, toRemove)
-listToFile(list, changeExt(filepath, ".nostopwords"))
-
-
-browser = open_browser()
-
-toRemove = returnVerbs(list, browser)
-listToFile(toRemove, changeExt(filepath, ".verbs"))
-
-list = cleanList(list, toRemove)
-listToFile(list, changeExt(filepath, ".nostopwords_noverbs"))
-
-browser.close()
-
-'''
-for file in os.listdir(directory):
-	if file.endswith((".txt")):
-		print(file)
-		path = directory + file
-		list = fileToList(path)
-		
-		toRemove = returnStopwords(list, stopwords)
-		listToFile(toRemove, changeExt(path, ".stopwords"))
-		
-		list = cleanList(list, toRemove)
-		listToFile(list, changeExt(path, ".nostopwords"))
-'''
-
-
