@@ -1,4 +1,5 @@
 .idea/
 venv/
-secret/*.apikey
+secret/
+!secret/README.md
 __pycache__/
