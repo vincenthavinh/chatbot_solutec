@@ -1,0 +1,4192 @@
+{
+  "name": "chatbot_solutec",
+  "intents": [
+    {
+      "intent": "Demande_comprise_mais_sans_reponse",
+      "examples": [
+        {
+          "text": "Combien de temps dure l'intercontrat?"
+        },
+        {
+          "text": "Avez-vous un comit\u00e9 d'entreprise ?"
+        },
+        {
+          "text": "Faites-vous du rachat de soci\u00e9t\u00e9 ?"
+        },
+        {
+          "text": "Quel est l'organigramme ?"
+        },
+        {
+          "text": "Faites vous du rachat de soci\u00e9t\u00e9?"
+        },
+        {
+          "text": "Avez vous un comit\u00e9 d'entreprise?"
+        },
+        {
+          "text": "Combien de temps dure une mission ?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_Greetings",
+      "examples": [
+        {
+          "text": "Comment tu te sens?"
+        },
+        {
+          "text": "Comment se passe votre journ\u00e9e ?"
+        },
+        {
+          "text": "Comment \u00e7a va ce soir?"
+        },
+        {
+          "text": "Comment \u00e7a se passe aujourd'hui ?"
+        },
+        {
+          "text": "Commencez d\u00e8s le d\u00e9but s'il vous pla\u00eet !"
+        },
+        {
+          "text": "Bonjour, qui \u00eates-vous?"
+        },
+        {
+          "text": "Bonjour , c'est votre support informatique , qu'est ce que je peux faire pour vous ?"
+        },
+        {
+          "text": "Allez, commen\u00e7ons !"
+        },
+        {
+          "text": "yo"
+        },
+        {
+          "text": "chalut"
+        },
+        {
+          "text": "Bonjour, quoi de neuf ?"
+        },
+        {
+          "text": "Je suis heureux de te parler pour la premi\u00e8re fois !"
+        },
+        {
+          "text": "J'ai pens\u00e9 que je pourrais juste te dire bonjour !"
+        },
+        {
+          "text": "J'aime parler. Toi aussi ?"
+        },
+        {
+          "text": "Est-ce que vous passez une bonne journ\u00e9e?"
+        },
+        {
+          "text": "Est-ce que les gens sont gentils avec vous?"
+        },
+        {
+          "text": "Comment va tout le monde ?"
+        },
+        {
+          "text": "Tu vas bien ?"
+        },
+        {
+          "text": "Puis-je te poser des questions?"
+        },
+        {
+          "text": "\u00e2llo, \u00e2llo !"
+        },
+        {
+          "text": "Salut, le conseiller !"
+        },
+        {
+          "text": "Je voudrais commencer."
+        }
+      ],
+      "description": "Saluez le bot"
+    },
+    {
+      "intent": "Demande_cr\u00e9ation",
+      "examples": [
+        {
+          "text": "En quelle ann\u00e9e a \u00e9t\u00e9 fond\u00e9e SOLUTEC?"
+        },
+        {
+          "text": "Qui vous a cr\u00e9\u00e9?"
+        },
+        {
+          "text": "Qui a cr\u00e9\u00e9 SOLUTEC?"
+        },
+        {
+          "text": "Depuis quand SOLUTEC existe?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_Security_Assurance",
+      "examples": [
+        {
+          "text": "ce que j'\u00e9cris est-il enregistr\u00e9?"
+        },
+        {
+          "text": "gardez-vous mes donn\u00e9es ?"
+        }
+      ],
+      "description": "Exprimer ses inqui\u00e9tudes concernant la s\u00e9curit\u00e9 du bot"
+    },
+    {
+      "intent": "Demande_poles_competences",
+      "examples": [
+        {
+          "text": "Quelles sont vos prestations ?"
+        },
+        {
+          "text": "Qu'avez-vous \u00e0 offrir \u00e0 vos clients ?"
+        },
+        {
+          "text": "O\u00f9 intervient SOLUTEC?"
+        },
+        {
+          "text": "Quels sont les services que vous proposez ?"
+        },
+        {
+          "text": "Quels sont vos comp\u00e9tences ?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Demande_actualites",
+      "examples": [
+        {
+          "text": "Quelles sont les actualit\u00e9s ?"
+        },
+        {
+          "text": "Quelles sont les derni\u00e8res informations ?"
+        },
+        {
+          "text": "Quelles sont les nouveaut\u00e9s ?"
+        },
+        {
+          "text": "Quoi de neuf chez SOLUTEC ?"
+        },
+        {
+          "text": "Quoi de neuf docteur ?"
+        },
+        {
+          "text": "Participez vous \u00e0 des forums \u00e9cole?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Demande_accompagnement_personnel",
+      "examples": [
+        {
+          "text": "accompagne-moi !"
+        },
+        {
+          "text": "\u00e9volution professionnelle,"
+        },
+        {
+          "text": "Comment voyez vous la progression de carri\u00e8re"
+        },
+        {
+          "text": "En combien de temps devient-on chef de projet?"
+        },
+        {
+          "text": "Y a-t-il un plan de carri\u00e8re?"
+        },
+        {
+          "text": "L'ambiance est-elle bonne chez SOLUTEC?"
+        },
+        {
+          "text": "Comment pouvez-vous m'accompagner dans mon projet professionnel ?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Demande_m\u00e9tiers",
+      "examples": [
+        {
+          "text": "Quels postes proposez-vous ?"
+        },
+        {
+          "text": "Quels m\u00e9tiers proposez-vous ?"
+        },
+        {
+          "text": "Je cherche un emploi"
+        },
+        {
+          "text": "quelles technologies utilisez-vous ?"
+        },
+        {
+          "text": "Combien de temps dure une mission?"
+        },
+        {
+          "text": "Sur quelles technos travaillez-vous?"
+        },
+        {
+          "text": "Est-ce que SOLUTEC embauche des ing\u00e9nieurs?"
+        },
+        {
+          "text": "faites-vous de la VR ?"
+        },
+        {
+          "text": "faites-vous de la RA ?"
+        },
+        {
+          "text": "faites-vous de l'AGILE ?"
+        },
+        {
+          "text": "quels jobs avez vous"
+        },
+        {
+          "text": "faites-vous du full stack ?"
+        },
+        {
+          "text": "faites-vous du front end ?"
+        },
+        {
+          "text": "faites-vous du big data ?"
+        },
+        {
+          "text": "Quel type de missions propose SOLUTEC ?"
+        },
+        {
+          "text": "Quel type de missions confiez-vous ?"
+        },
+        {
+          "text": "m\u00e9tiers chez solutec"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Demande_agences",
+      "examples": [
+        {
+          "text": "Quelle est l'adresse de votre agence ?"
+        },
+        {
+          "text": "O\u00f9 \u00eates-vous situ\u00e9 ?"
+        },
+        {
+          "text": "Quelles sont vos coordonn\u00e9es ?"
+        },
+        {
+          "text": "je veux travailler sur toulouse"
+        },
+        {
+          "text": "je veux travailler sur nantes"
+        },
+        {
+          "text": "je veux travailler sur lyon"
+        },
+        {
+          "text": "je veux travailler sur paris"
+        },
+        {
+          "text": "je veux travailler sur bordeaux"
+        },
+        {
+          "text": "O\u00f9 etes vous?"
+        },
+        {
+          "text": "agences"
+        },
+        {
+          "text": "O\u00f9 \u00eates-vous implant\u00e9 ?"
+        },
+        {
+          "text": "Dans quelles villes \u00eates-vous ?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Demande_choix_SOLUTEC",
+      "examples": [
+        {
+          "text": "Pourquoi choisirais-je votre entreprise ?"
+        },
+        {
+          "text": "Pourquoi irais-je chez vous ?"
+        },
+        {
+          "text": "Pourquoi aller chez SOLUTEC ?"
+        },
+        {
+          "text": "Pourquoi SOLUTEC ?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Demande_argent",
+      "examples": [
+        {
+          "text": "Combien avez-vous gagn\u00e9 l'ann\u00e9e derni\u00e8re ?"
+        },
+        {
+          "text": "Quel est le ca ?"
+        },
+        {
+          "text": "Quel est votre ca ?"
+        },
+        {
+          "text": "Quel est votre bilan ?"
+        },
+        {
+          "text": "Quel est le bilan  ?"
+        },
+        {
+          "text": "Quel est votre chiffre d'affaire ?"
+        },
+        {
+          "text": "Quel est le chiffre d'affaire ?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Demande_engagement",
+      "examples": [
+        {
+          "text": "L'ambiance est elle bonne chez SOlutec?"
+        },
+        {
+          "text": "Quelle est votre politique ?"
+        },
+        {
+          "text": "SOLUTEC se pr\u00e9occupe-t-elle de l'\u00e9cologie?"
+        },
+        {
+          "text": "Quelle direction prend SOLUTEC pour l'avenir?"
+        },
+        {
+          "text": "Quels sont vos engagements ?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_Connect_to_Agent",
+      "examples": [
+        {
+          "text": "Puis-je parler \u00e0 un repr\u00e9sentant du service humain maintenant ?"
+        },
+        {
+          "text": "Puis-je parler \u00e0 un agent \u00e0 propos de mon compte ?"
+        },
+        {
+          "text": "Pouvez-vous, s'il vous pla\u00eet, diriger mon appel vers un agent humain? Je voudrais parler directement avec un \u00eatre humain."
+        },
+        {
+          "text": "Pouvez-vous me mettre en contact avec un agent, s'il vous pla\u00eet ? Ma conversation a \u00e9t\u00e9 coup\u00e9e."
+        },
+        {
+          "text": "Personne ne r\u00e9pond au t\u00e9l\u00e9phone !"
+        },
+        {
+          "text": "Laissez-moi parler \u00e0\u00a0votre patron maintenant !"
+        },
+        {
+          "text": "Je veux parler avec un repr\u00e9sentant, s'il vous pla\u00eet."
+        },
+        {
+          "text": "Je veux parler au directeur ! Votre agent \u00e9tait inutile !"
+        },
+        {
+          "text": "Je voudrais parler avec un agent en direct, s'il vous pla\u00eet."
+        },
+        {
+          "text": "Je souhaite vous proposer un forum \u00e9cole"
+        },
+        {
+          "text": "Qui contacter pour un stage \u00e0 Paris"
+        },
+        {
+          "text": "Y a-t-il un num\u00e9ro que je peux composer et rejoindre une personne r\u00e9elle qui peut m'aider?"
+        },
+        {
+          "text": "Veuillez me connecter \u00e0 un gestionnaire."
+        },
+        {
+          "text": "Je souhaite parler \u00e0 un agent humain du service client."
+        },
+        {
+          "text": "Je souhaite etre mis en relation avec un agent."
+        },
+        {
+          "text": "Je pense qu'il faut me connecter avec un op\u00e9rateur."
+        },
+        {
+          "text": "Je dois parler \u00e0 une personne r\u00e9elle plut\u00f4t qu'un syst\u00e8me de r\u00e9ponse automatis\u00e9, s'il vous pla\u00eet."
+        },
+        {
+          "text": "J'aimerais parler \u00e0\u00a0un agent humain, s'il vous pla\u00eet."
+        },
+        {
+          "text": "Existe-t-il un num\u00e9ro que je peux composer pour parler \u00e0 op\u00e9rateur en direct ?"
+        },
+        {
+          "text": "Existe-t-il un num\u00e9ro de service client qui je peux utiliser et parler \u00e0\u00a0 un agent directement ?"
+        },
+        {
+          "text": "Bon, maintenant je veux parler \u00e0 un agent \u00e0 propos de certains frais."
+        },
+        {
+          "text": "Bonjour pourriez-vous me mettre en relation avec un agent en ligne?"
+        },
+        {
+          "text": "Je souhaite vous porposer un forum \u00e9cole"
+        }
+      ],
+      "description": "Demander un agent humain"
+    },
+    {
+      "intent": "General_Positive_Feedback",
+      "examples": [
+        {
+          "text": "Tu es plut\u00f4t intelligent!"
+        },
+        {
+          "text": "Tu es si intelligent, c'est incroyable!"
+        },
+        {
+          "text": "Tu es si sage!"
+        },
+        {
+          "text": "Tu es tellement amusant!"
+        },
+        {
+          "text": "Tu es vachement cool!"
+        },
+        {
+          "text": "Tu es vraiment cool!"
+        },
+        {
+          "text": "Tu te d\u00e9brouilles plut\u00f4t bien!"
+        },
+        {
+          "text": "Vous \u00eates formidable!"
+        },
+        {
+          "text": "Vous \u00eates formidable! Merci!"
+        },
+        {
+          "text": "Vous \u00eates g\u00e9nial!"
+        },
+        {
+          "text": "Vous \u00eates un sympa!"
+        },
+        {
+          "text": "Vous \u00eates vraiment utile."
+        },
+        {
+          "text": "J'aime beaucoup la vid\u00e9o !"
+        },
+        {
+          "text": "ok"
+        },
+        {
+          "text": "Je suis vraiment surpris par ton intelligence!"
+        },
+        {
+          "text": "Tu bosses bien!"
+        },
+        {
+          "text": "Tu es adorable!"
+        },
+        {
+          "text": "Tu es bon!"
+        },
+        {
+          "text": "Tu es dr\u00f4le!"
+        },
+        {
+          "text": "Tu es gentil!"
+        },
+        {
+          "text": "Tu es le meilleur!"
+        },
+        {
+          "text": "Tu es plut\u00f4t dou\u00e9!"
+        },
+        {
+          "text": "nice"
+        },
+        {
+          "text": "merci"
+        }
+      ],
+      "description": "Exprimer un sentiment positif ou de la gratitude"
+    },
+    {
+      "intent": "Demande_valeurs",
+      "examples": [
+        {
+          "text": "Quelles sont vos valeurs ?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Demande_stages",
+      "examples": [
+        {
+          "text": "Que proposez-vous comme stages ?"
+        },
+        {
+          "text": "Avez-vous des stages en ce moment ?"
+        },
+        {
+          "text": "Avez-vous des stages \u00e0 pourvoir ?"
+        },
+        {
+          "text": "Je veux postuler \u00e0 un stage chez vous."
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Demande_domaines",
+      "examples": [
+        {
+          "text": "Travaillez vous dans l'\u00e9nergie/automobile/a\u00e9ronautique/...?"
+        },
+        {
+          "text": "Dans quels domaines exercez-vous ?"
+        },
+        {
+          "text": "Quels sont vos domaines d'activit\u00e9 ?"
+        },
+        {
+          "text": "Dans quels secteurs d'activit\u00e9 travaillez-vous ?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Demande_pdg",
+      "examples": [
+        {
+          "text": "Qui est le PDG de SOLUTEC ?"
+        },
+        {
+          "text": "Qui est votre directeur ?"
+        },
+        {
+          "text": "Qui est votre PDG ?"
+        },
+        {
+          "text": "Qui dirige SOLUTEC ?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Demande_recrutement",
+      "examples": [
+        {
+          "text": "Comment puis-je vous rejoindre ?"
+        },
+        {
+          "text": "Comment puis-je rejoindre SOLUTEC ?"
+        },
+        {
+          "text": "Comment puis-je candidater ?"
+        },
+        {
+          "text": "Quelles sont vos \u00e9tapes de recrutement ?"
+        },
+        {
+          "text": "Quel est le processus de recrutement ?"
+        },
+        {
+          "text": "O\u00f9 d\u00e9poser mon CV?"
+        },
+        {
+          "text": "rejoindre solutec"
+        },
+        {
+          "text": "int\u00e9grer solutec"
+        },
+        {
+          "text": "Comment puis-je int\u00e9grer SOLUTEC ?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Demande_innovation",
+      "examples": [
+        {
+          "text": "En quoi innovez-vous ?"
+        },
+        {
+          "text": "Quelles sont vos innovations ?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_Jokes",
+      "examples": [
+        {
+          "text": "Tu connais des jeux?"
+        },
+        {
+          "text": "Surprends-moi avec quelque chose de dr\u00f4le !"
+        },
+        {
+          "text": "Raconte moi une blague !"
+        },
+        {
+          "text": "Que pouvez-vous faire d'autre pour m'amuser?"
+        },
+        {
+          "text": "Quelle est ta blague pr\u00e9f\u00e9r\u00e9e?"
+        },
+        {
+          "text": "Quelle blague tu peux me raconter ?"
+        },
+        {
+          "text": "Pouvez-vous me dire une blague?"
+        },
+        {
+          "text": "Peux-tu raconter une blague?"
+        },
+        {
+          "text": "Peux-tu dire un truc dr\u00f4le?"
+        },
+        {
+          "text": "Peux-tu chanter pour moi?"
+        },
+        {
+          "text": "Fais-moi rire!"
+        },
+        {
+          "text": "Dis-moi une autre blague!"
+        },
+        {
+          "text": "Dis-moi quelque chose de dr\u00f4le!"
+        },
+        {
+          "text": "Connais-tu une bonne blague salace?"
+        },
+        {
+          "text": "Connais-tu une blague?"
+        },
+        {
+          "text": "Connaissez-vous des blagues?"
+        },
+        {
+          "text": "Amusons-nous!"
+        },
+        {
+          "text": "Amuse-moi!"
+        },
+        {
+          "text": "Aimes-tu rigoler?"
+        },
+        {
+          "text": "Aimes-tu raconter des blagues?"
+        }
+      ],
+      "description": "Demander une blague"
+    },
+    {
+      "intent": "Demande_clients",
+      "examples": [
+        {
+          "text": "Qui sont vos clients ?"
+        },
+        {
+          "text": "Avec quelles entreprises travaillez vous?"
+        },
+        {
+          "text": "Avec qui travaillez-vous ?"
+        },
+        {
+          "text": "Qui sont vos partenaires ?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_Human_or_Bot",
+      "examples": [
+        {
+          "text": "Pouvez-vous \u00eatre honn\u00eate avec moi?"
+        },
+        {
+          "text": "Pouvez-vous me connecter \u00e0 une personne en direct?"
+        },
+        {
+          "text": "Pourrai-je parler un \u00eatre humain s'il vous pla\u00eet ?"
+        },
+        {
+          "text": "Je parle avec qui?"
+        },
+        {
+          "text": "Est-ce que t'es un ordinateur?"
+        },
+        {
+          "text": "Est-ce que je parle \u00e0 Watson?"
+        },
+        {
+          "text": "Est-ce que je parle \u00e0 un Bot?"
+        },
+        {
+          "text": "\u00cates-vous un homme ou une femme?"
+        },
+        {
+          "text": "Comment pouvez-vous prouver que vous \u00eates un humain?"
+        },
+        {
+          "text": "Comment puis-je parler \u00e0 Watson?"
+        },
+        {
+          "text": "Connecte-moi avec une personne r\u00e9elle."
+        },
+        {
+          "text": "Dis-moi la v\u00e9rit\u00e9, qui est-ce que tu es?"
+        },
+        {
+          "text": "Dites-moi, qui \u00eates-vous?"
+        },
+        {
+          "text": "Dites-moi, \u00eates-vous un humain ou non?"
+        },
+        {
+          "text": "Est-ce que je discute avec un humain?"
+        },
+        {
+          "text": "Vous \u00eates quoi, un ordinateur?"
+        },
+        {
+          "text": "\u00cates-vous r\u00e9el?"
+        },
+        {
+          "text": "\u00cates-vous un humain ou un robot?"
+        },
+        {
+          "text": "Est-ce que je parle \u00e0 une personne ou suis-je en train de parler \u00e0 une IA?"
+        },
+        {
+          "text": "Qui es-tu vraiment?"
+        }
+      ],
+      "description": "Demandez si vous parlez \u00e0 un humain ou \u00e0 un bot"
+    },
+    {
+      "intent": "General_Negative_Feedback",
+      "examples": [
+        {
+          "text": "Je veux parler \u00e0 une de personne vivante!"
+        },
+        {
+          "text": "Va te faire foutre!"
+        },
+        {
+          "text": "Tu ne sais rien faire!"
+        },
+        {
+          "text": "Tu m'\u00e9nerves!"
+        },
+        {
+          "text": "Tu me saoule!"
+        },
+        {
+          "text": "Tu me fais chier!"
+        },
+        {
+          "text": "Tu es nul."
+        },
+        {
+          "text": "Tu es inutile!"
+        },
+        {
+          "text": "Tu es chiant!"
+        },
+        {
+          "text": "Tu es b\u00eate!"
+        },
+        {
+          "text": "T'es bizarre."
+        },
+        {
+          "text": "Tais-toi!"
+        },
+        {
+          "text": "Putain de robot!"
+        },
+        {
+          "text": "Programme stupide !"
+        },
+        {
+          "text": "Aie aie aie"
+        },
+        {
+          "text": "Je te d\u00e9teste."
+        },
+        {
+          "text": "Idiot!"
+        },
+        {
+          "text": "Espece de bo\u00eete de conserve!"
+        },
+        {
+          "text": "Connard!"
+        },
+        {
+          "text": "Ce n'est pas vrai!"
+        },
+        {
+          "text": "Arr\u00eate de m'\u00e9nerver!"
+        }
+      ],
+      "description": "Exprimer des commentaires d\u00e9favorables"
+    },
+    {
+      "intent": "Demande_pr\u00e9sentation",
+      "examples": [
+        {
+          "text": "que peux tu me dire sur ton entreprise"
+        },
+        {
+          "text": "Que fait SOLUTEC ?"
+        },
+        {
+          "text": "Pr\u00e9sentez-moi SOLUTEC."
+        },
+        {
+          "text": "Quel type d'entreprise \u00eates-vous ?"
+        },
+        {
+          "text": "Que faites-vous ?"
+        },
+        {
+          "text": "parle moi de solutec"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_Ending",
+      "examples": [
+        {
+          "text": "C'est tout, merci."
+        },
+        {
+          "text": "Je vais te parler plus tard !"
+        },
+        {
+          "text": "Je rediscuterai avec vous plus tard."
+        },
+        {
+          "text": "Je pars maintenant, \u00e0 plus !"
+        },
+        {
+          "text": "Je n'ai plus de questions."
+        },
+        {
+          "text": "Je m'en vais maintenant."
+        },
+        {
+          "text": "Je dois partir maintenant."
+        },
+        {
+          "text": "J'ai besoin d'une pause, au revoir !"
+        },
+        {
+          "text": "Donc, je vous remercie beaucoup de votre aide. Je vous souhaite une bonne journ\u00e9e !"
+        },
+        {
+          "text": "D'accord merci. Au revoir!"
+        },
+        {
+          "text": "C'\u00e9tait un plaisir de chatter avec vous !"
+        },
+        {
+          "text": "C'\u00e9tait sympa de bavarder avec toi!"
+        },
+        {
+          "text": "Pouvons-nous arr\u00eater ?"
+        },
+        {
+          "text": "Passe une bonne journ\u00e9e !"
+        },
+        {
+          "text": "OK, merci. Au revoir !"
+        },
+        {
+          "text": "Ok, c'est tout ce dont j'ai besoin pour l'instant."
+        },
+        {
+          "text": "Nous allos rediscuter bient\u00f4t."
+        },
+        {
+          "text": "Merci beaucoup, on se reparle plus tard."
+        },
+        {
+          "text": "Je voudrais arr\u00eater l\u00e0."
+        },
+        {
+          "text": "Je vais vous reparler bient\u00f4t."
+        }
+      ],
+      "description": "Terminez la conversation"
+    },
+    {
+      "intent": "Demande_statistiques",
+      "examples": [
+        {
+          "text": "Pour combien de clients travaillez-vous ?"
+        },
+        {
+          "text": "Combien d'agences avez-vous ?"
+        },
+        {
+          "text": "Combien d'employ\u00e9s y a-t-il dans votre entreprise ?"
+        },
+        {
+          "text": "Combien avez-vous de collaborateurs ?"
+        },
+        {
+          "text": "Quel est le nombre de postes \u00e0 pouvoir ?"
+        },
+        {
+          "text": "Quelle est la proportion de consultants en CDI ?"
+        },
+        {
+          "text": "Quelle est la croissance annuelle moyenne de votre entreprise ?"
+        },
+        {
+          "text": "Donnez-moi des statistiques sur SOLUTEC."
+        },
+        {
+          "text": "Quels sont vos chiffres ?"
+        },
+        {
+          "text": "Est-ce une grande entreprise?"
+        },
+        {
+          "text": "Quelle est votre taille?"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "liens",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "contact_solutec",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "actualit\u00e9s_solutec",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "facebook",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "linkedin",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "emplois",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "stages",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "recrutement",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Le premier entretien",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "cv",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Le second entretien",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "lab",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "lab",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "valeur",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "ind\u00e9pendance & solidit\u00e9",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "professionnalisme",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "p\u00e9rennit\u00e9",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "qualit\u00e9",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "confiance",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "\u00e9coute",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "proximit\u00e9",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "performance & excellence",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "exp\u00e9rience humaine",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "pdg",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "pdg",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "competences",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Accompagnement de projet et transformation digitale",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "D\u00e9veloppement applicatif",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Infrastructure et exploitation",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Coordination et gestion de projet",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "engagement",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "politique RH",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "engagements durables",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "metiers",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Pr\u00e9cisions_d\u00e9veloppement_applicatif",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Pr\u00e9cisions_Business_Development",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Pr\u00e9cisions_Infrastructure_Exploitation",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Pr\u00e9sentation de nos m\u00e9tiers",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Business development",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Accompagnement & Gestion de projet",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "D\u00e9veloppement applicatif",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Infrastructure & Exploitation",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Pr\u00e9cisions_Accompagnement_Gestion",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "metiers_qui",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "metiers_comment",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "metiers_domaines",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "technologiesEtm\u00e9tiers",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "testeur",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "moe",
+          "synonyms": [
+            "ma\u00eetrise d'oeuvre",
+            "ma\u00eetre d'oeuvre"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Ressources Humaines",
+          "synonyms": [
+            "RH"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "web",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "mobile",
+          "synonyms": [
+            "android",
+            "ios"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "devops",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "technologie",
+          "synonyms": [
+            "techno"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "s\u00e9curit\u00e9",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "langage",
+          "synonyms": [
+            "java",
+            "python",
+            "php",
+            "c++",
+            "c#",
+            "js",
+            "javascript",
+            "perl",
+            "ocaml",
+            "swift",
+            "kotlin",
+            "f#",
+            "sql",
+            "html",
+            "css",
+            "pascal",
+            "scheme",
+            "haskell",
+            "prolog",
+            "cobol",
+            "rust",
+            "ada",
+            "scala",
+            "ruby",
+            "lustre",
+            "esterel"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "cloud",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "framework",
+          "synonyms": [
+            "angular",
+            "react",
+            "jakarta",
+            "j2e",
+            "jee",
+            "vuejs",
+            "reactjs",
+            "angularjs",
+            "nodejs",
+            "hibernate",
+            "django",
+            "spring",
+            "bootstrap",
+            "struts",
+            "hadoop",
+            "spark"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ing\u00e9nieur",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "BAC",
+          "synonyms": [
+            "BAC+1",
+            "BAC+2",
+            "BAC+3",
+            "BAC+4",
+            "BAC+5",
+            "BAC+6",
+            "BAC+7",
+            "BAC+8",
+            "BAC+N"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "commercial",
+          "synonyms": [
+            "commerciaux"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "consultant",
+          "synonyms": [
+            "consulting"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "programmeur",
+          "synonyms": [
+            "d\u00e9veloppeur",
+            "codeur"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "moa",
+          "synonyms": [
+            "ma\u00eetrise d'ouvrage",
+            "ma\u00eetre d'ouvrage"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "big data",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "back end",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "agile",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "front end",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "full stack",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "r\u00e9alit\u00e9 augment\u00e9e",
+          "synonyms": [
+            "ra"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "r\u00e9alit\u00e9 virtuelle",
+          "synonyms": [
+            "vr"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "accompagnement_perso",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Point sur votre carri\u00e8re",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Mont\u00e9e en comp\u00e9tences",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Votre parcours",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "video",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "lien_video",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "presentation_stages",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "stage_DSI",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "stage_business",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "presentation_stages",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "stage_lab_solutec",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "stage_en_clientele",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "agences",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Bordeaux",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Lyon",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Nantes",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Toulouse",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Paris",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "language": "fr",
+  "metadata": {
+    "api_version": {
+      "major_version": "v1",
+      "minor_version": "2018-09-20"
+    }
+  },
+  "description": "",
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Pr\u00e9cisions Infrastructure et exploitation",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Pr\u00eat \u00e0 relever le d\u00e9fi ?\n\nEn charge du maintien en condition op\u00e9rationnelle d\u2019un SI, votre capacit\u00e9 d\u2019adaptation vous permettra de r\u00e9pondre \u00e0 des probl\u00e9matiques complexes.\n\nVous serez aussi force de proposition afin d\u2019accompagner nos clients dans le cadre d\u2019une am\u00e9lioration continue de leurs infrastructures informatiques.\n\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://i.imgur.com/ocktEmW.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_3_1547217771946",
+      "metadata": {},
+      "conditions": "@metiers:Pr\u00e9cisions_Infrastructure_Exploitation",
+      "dialog_node": "node_2_1547219224890"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1547223908277",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1547224076611"
+      },
+      "conditions": "@metiers:metiers_domaines",
+      "dialog_node": "node_4_1547224818045"
+    },
+    {
+      "type": "standard",
+      "title": "Accompagnement & Gestion de projet",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Activit\u00e9s primordiales pour la r\u00e9ussite d\u2019un projet,  l\u2019accompagnement et la gestion de projet allient curiosit\u00e9, rigueur, agilit\u00e9 et qualit\u00e9s relationnelles.\n\nIng\u00e9nieur fonctionnel chez SOLUTEC, vous accompagnez un projet IT sur ses diff\u00e9rentes phases afin d\u2019en assurer la r\u00e9ussite.\n\nDu cadrage du besoin jusqu\u2019aux phases de tests, recette et accompagnement au changement :\n\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "En savoir plus...",
+                "value": {
+                  "input": {
+                    "text": "Pr\u00e9cisions_Accompagnement_Gestion"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1547216923860",
+      "metadata": {},
+      "conditions": "@metiers:(Accompagnement & Gestion de projet)",
+      "dialog_node": "node_4_1547217773048",
+      "previous_sibling": "node_3_1547217771946"
+    },
+    {
+      "type": "standard",
+      "title": "Business development",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Nous recherchons des entrepreneurs polyvalents, pers\u00e9v\u00e9rants et \u00e0 l\u2019\u00e9coute pour faire cro\u00eetre notre activit\u00e9.\n\nManager commercial chez SOLUTEC, polyvalent et audacieux, vous travaillerez au d\u00e9veloppement de l\u2019entreprise ainsi qu\u2019au suivi et \u00e0 l\u2019accompagnement de nos consultants :\n\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://i.imgur.com/ZphDOAH.png",
+            "response_type": "image"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "En savoir plus...",
+                "value": {
+                  "input": {
+                    "text": "Pr\u00e9cisions_Business_Development"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1547216923860",
+      "metadata": {},
+      "conditions": "@metiers:(Business development)",
+      "dialog_node": "node_5_1547217774098",
+      "previous_sibling": "node_4_1547217773048"
+    },
+    {
+      "type": "standard",
+      "title": "Infrastructure & Exploitation",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Alliant rigueur, robustesse et expertise, la bonne gestion d\u2019un SI assure un fonctionnement optimal des outils m\u00e9tiers.\n\nEn \u00e9tant impliqu\u00e9 dans les m\u00e9tiers de l\u2019ing\u00e9nierie infrastructure et exploitation vous serez garant du bon fonctionnement des syst\u00e8mes d\u2019informations de nos clients et interviendrez sur des sujets vari\u00e9s :\n\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://i.imgur.com/71BvcDk.png",
+            "response_type": "image"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "En savoir plus...",
+                "value": {
+                  "input": {
+                    "text": "Pr\u00e9cisions_Infrastructure_Exploitation"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1547216923860",
+      "metadata": {},
+      "conditions": "@metiers:(Infrastructure & Exploitation)",
+      "dialog_node": "node_3_1547217771946",
+      "previous_sibling": "node_2_1547217770193"
+    },
+    {
+      "type": "standard",
+      "title": "D\u00e9veloppement applicatif",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ces m\u00e9tiers allient technicit\u00e9, cr\u00e9ativit\u00e9, travail en \u00e9quipe et passion. Ils sont donc tr\u00e8s naturellement au c\u0153ur de notre activit\u00e9.\n\nIng\u00e9nieur d\u2019\u00e9tudes et d\u00e9veloppement chez SOLUTEC, vous participerez \u00e0 la conception et la r\u00e9alisation de projets vari\u00e9s au sein des DSI de nos clients. Vous aurez l\u2019occasion de faire preuve de polyvalence technique en intervenant sur toutes les phases d\u2019un projet de d\u00e9veloppement applicatif.\n\nAu sein des \u00e9quipes techniques de nos clients, vous prendrez en charge les phases d\u2019analyse, de conception, de d\u00e9veloppement et de tests sur diff\u00e9rents projets :\n\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://i.imgur.com/ZgkDazR.png",
+            "response_type": "image"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "En savoir plus...",
+                "value": {
+                  "input": {
+                    "text": "Pr\u00e9cisions_d\u00e9veloppement_applicatif"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1547216923860",
+      "metadata": {},
+      "conditions": "@metiers:(D\u00e9veloppement applicatif)",
+      "dialog_node": "node_2_1547217770193"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1547205892030",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1548422532285"
+      },
+      "conditions": "@recrutement:cv",
+      "dialog_node": "node_2_1548422916371"
+    },
+    {
+      "type": "standard",
+      "title": "Pr\u00e9sentation de nos stages",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Votre stage chez Solutec :\n\nVous d\u00e9sirez effectuer votre stage de fin d\u2019\u00e9tudes dans une entreprise jeune et dynamique, sur des sujets innovants ?\nAu sein d\u2019une \u00e9quipe, prenez la responsabilit\u00e9 d\u2019un projet, montez en comp\u00e9tences sur les technologies qui vous int\u00e9ressent et pr\u00e9parez-vous pour votre premier emploi. Vous \u00e9voluerez dans un espace de challenges techniques et de partage d\u2019exp\u00e9rience.\n\nVous \u00eates accompagn\u00e9 tout au long de votre stage pour d\u00e9buter et poursuivre votre carri\u00e8re chez SOLUTEC.\n\nPour cela, nous vous proposons d\u2019\u00e9voluer au sein de diff\u00e9rents environnements :"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Stage dans le lab'SOLUTEC",
+                "value": {
+                  "input": {
+                    "text": "stage_lab_solutec"
+                  }
+                }
+              },
+              {
+                "label": "Stage en client\u00e8le",
+                "value": {
+                  "input": {
+                    "text": "stage_en_clientele"
+                  }
+                }
+              },
+              {
+                "label": "Stage business",
+                "value": {
+                  "input": {
+                    "text": "stage_business"
+                  }
+                }
+              },
+              {
+                "label": "Stage au sein de notre DSI",
+                "value": {
+                  "input": {
+                    "text": "stage_DSI"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_5_1547220604112",
+      "metadata": {},
+      "conditions": "@presentation_stages",
+      "dialog_node": "node_6_1547221194681"
+    },
+    {
+      "type": "standard",
+      "title": "Stage en DSI",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Rattach\u00e9 \u00e0 nos \u00e9quipes techniques, venez d\u00e9couvrir la polyvalence des m\u00e9tiers d\u2019une DSI en pleine expansion."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Voir le catalogue des stages",
+                "value": {
+                  "input": {
+                    "text": "stages"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_6_1547221194681",
+      "metadata": {},
+      "conditions": "@presentation_stages:stage_DSI",
+      "dialog_node": "node_10_1547221575529",
+      "previous_sibling": "node_9_1547221574552"
+    },
+    {
+      "type": "standard",
+      "title": "Stage en client\u00e8le",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "En immersion chez l\u2019un de nos clients, vous serez int\u00e9gr\u00e9 \u00e0 une \u00e9quipe d\u2019ing\u00e9nieurs SOLUTEC et aurez donc l\u2019occasion de d\u00e9couvrir les enjeux du m\u00e9tier de consultant."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Voir le catalogue des stages",
+                "value": {
+                  "input": {
+                    "text": "stages"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_6_1547221194681",
+      "metadata": {},
+      "conditions": "@presentation_stages:stage_en_clientele",
+      "dialog_node": "node_9_1547221574552",
+      "previous_sibling": "node_8_1547221573472"
+    },
+    {
+      "type": "standard",
+      "title": "Stage business",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Int\u00e9gr\u00e9 \u00e0 nos \u00e9quipes commerciales, vous serez au c\u0153ur de l\u2019organisation de l\u2019entreprise et participerez activement au d\u00e9veloppement de SOLUTEC."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Voir le catalogue des stages",
+                "value": {
+                  "input": {
+                    "text": "stages"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_6_1547221194681",
+      "metadata": {},
+      "conditions": "@presentation_stages:stage_business",
+      "dialog_node": "node_8_1547221573472",
+      "previous_sibling": "node_7_1547221572008"
+    },
+    {
+      "type": "standard",
+      "title": "Stage lab'SOLUTEC",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Au sein de cet espace d\u00e9di\u00e9 \u00e0 l\u2019innovation et au partage d\u2019exp\u00e9rience, venez compl\u00e9ter votre formation th\u00e9orique par une mise en pratique concr\u00e8te.\n\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "En savoir plus sur le lab'SOLUTEC",
+                "value": {
+                  "input": {
+                    "text": "lab"
+                  }
+                }
+              },
+              {
+                "label": "Voir le catalogue des stages",
+                "value": {
+                  "input": {
+                    "text": "stages"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_6_1547221194681",
+      "metadata": {},
+      "conditions": "@presentation_stages:stage_lab_solutec",
+      "dialog_node": "node_7_1547221572008"
+    },
+    {
+      "type": "standard",
+      "title": "Pr\u00e9cisions Business Development",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Pr\u00eat \u00e0 relever le d\u00e9fi ?\n\nIssu d\u2019une formation commerciale, manag\u00e9riale ou en ing\u00e9nierie, vous avez l\u2019\u00e2me d\u2019un intrapreneur et vous souhaitez construire avec nous le SOLUTEC de demain ?\n\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://i.imgur.com/JNfijve.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_5_1547217774098",
+      "metadata": {},
+      "conditions": "@metiers:Pr\u00e9cisions_Business_Development",
+      "dialog_node": "node_4_1547220048430"
+    },
+    {
+      "type": "standard",
+      "title": "Mont\u00e9e en comp\u00e9tences",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O\u00f9 que vous interveniez, nous \u00e9changeons, organisons des bilans r\u00e9guliers. Besoin de progresser ? SOLUTEC met en place un plan d\u2019\u00e9volution personnalis\u00e9 pour consolider, \u00e9largir et enrichir vos champs de comp\u00e9tences."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1547204757076",
+      "metadata": {},
+      "conditions": "@accompagnement_perso:(Mont\u00e9e en comp\u00e9tences)",
+      "dialog_node": "node_5_1547204913775",
+      "previous_sibling": "node_4_1547204912183"
+    },
+    {
+      "type": "standard",
+      "title": "Point sur votre carri\u00e8re",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Vos aspirations professionnelles ont \u00e9volu\u00e9 ? Chaque ann\u00e9e, l\u2019entretien de carri\u00e8re vous aide \u00e0 y voir plus clair dans votre horizon professionnel. Objectif : \u00e9changer pour que nos ambitions continuent de converger."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1547204757076",
+      "metadata": {},
+      "conditions": "@accompagnement_perso:(Point sur votre carri\u00e8re)",
+      "dialog_node": "node_7_1547204925767",
+      "previous_sibling": "node_5_1547204913775"
+    },
+    {
+      "type": "standard",
+      "title": "Votre parcours",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Nos managers prendront le temps de vous conna\u00eetre et d\u2019analyser vos d\u00e9sirs d\u2019\u00e9volution pour vous proposer les missions les plus adapt\u00e9es \u00e0 votre profil. Ils se chargeront ensuite de vous coacher pour vous mener vers les ambitions auxquelles vous aspirez."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1547204757076",
+      "metadata": {},
+      "conditions": "@accompagnement_perso:(Votre parcours)",
+      "dialog_node": "node_4_1547204912183"
+    },
+    {
+      "type": "standard",
+      "title": "Politique RH",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Notre politique RH :\n- Nous misons sur la qualit\u00e9 des relations socioprofessionnelles.\n- Nous misons sur l\u2019\u00e9galit\u00e9 des chances.\n- Nous misons sur l\u2019\u00e9quit\u00e9 de la progression des parcours professionnels."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_12_1546883524692",
+      "metadata": {},
+      "conditions": "@engagement:(politique RH)",
+      "dialog_node": "node_14_1546884414572",
+      "previous_sibling": "node_13_1546884411907"
+    },
+    {
+      "type": "standard",
+      "title": "Engagement durable",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Nos engagements durables :\n- Nous incitons \u00e0 l\u2019usage des transports en commun.\n- Nous recyclons nos d\u00e9chets, papiers et \u00e9quipements.\n- Nous r\u00e9duisons en continu nos consommations d\u2019\u00e9nergie gr\u00e2ce \u00e0 nos achats \n   responsables et orient\u00e9s Green-IT.\n- Notre si\u00e8ge social dispose de la norme Tr\u00e8s Haute Performance Energ\u00e9tique \n  (THPE)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_12_1546883524692",
+      "metadata": {},
+      "conditions": "@engagement:(engagements durables)",
+      "dialog_node": "node_13_1546884411907"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_8_1546871442997",
+      "event_name": "focus",
+      "dialog_node": "handler_10_1546871442997",
+      "previous_sibling": "handler_9_1546871442997"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_8_1546871442997",
+      "event_name": "input",
+      "dialog_node": "handler_9_1546871442997"
+    },
+    {
+      "type": "standard",
+      "title": "D\u00e9poser mon CV",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Vous pouvez d\u00e9poser votre CV sur la page du Catalogue des emplois ou des stages :"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Catalogue des emplois",
+                "value": {
+                  "input": {
+                    "text": "emplois"
+                  }
+                }
+              },
+              {
+                "label": "Catalogue des stages",
+                "value": {
+                  "input": {
+                    "text": "stages"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_8_1547205254261",
+      "metadata": {},
+      "conditions": "@recrutement:cv",
+      "dialog_node": "node_1_1548422532285",
+      "previous_sibling": "node_9_1547205475649"
+    },
+    {
+      "type": "standard",
+      "title": "Le premier entretien",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Dans le cadre de notre premi\u00e8re rencontre, l\u2019objectif est de vous fournir le maximum d\u2019informations sur notre entreprise, nos clients, nos missions, l\u2019accompagnement tout au long de votre carri\u00e8re ainsi que la formation\u2026\n\nBien entendu, nous cherchons \u00e9galement \u00e0 comprendre vos ambitions, votre parcours, vos attentes et les valeurs qui vous d\u00e9finissent."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "D\u00e9roulement du second entretien",
+                "value": {
+                  "input": {
+                    "text": "Le second entretien"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_8_1547205254261",
+      "metadata": {},
+      "conditions": "@recrutement:(Le premier entretien)",
+      "dialog_node": "node_9_1547205475649"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Site SOLUTEC : https://www.solutec.fr/fr/actualites/"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_8_1547209258212",
+      "metadata": {},
+      "conditions": "@liens:(actualit\u00e9s_solutec)",
+      "dialog_node": "node_11_1547209285398",
+      "previous_sibling": "node_10_1547209282854"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Catalogue des emplois : https://krb-sjobs.brassring.com/TGWebHost/searchopenings.aspx?partnerid=30124&siteid=6451"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1547209258212",
+      "metadata": {},
+      "conditions": "@liens:emplois",
+      "dialog_node": "node_14_1547209913464",
+      "previous_sibling": "node_13_1547209746765"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Catalogue des stages : \nhttps://krb-sjobs.brassring.com/TGWebHost/searchopenings.aspx?partnerid=30124&siteid=6452"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1547209258212",
+      "metadata": {},
+      "conditions": "@liens:stages",
+      "dialog_node": "node_13_1547209746765",
+      "previous_sibling": "node_12_1547209287846"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "LinkedIn : https://www.linkedin.com/company/solutec/"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_8_1547209258212",
+      "metadata": {},
+      "conditions": "@liens:linkedin",
+      "dialog_node": "node_10_1547209282854",
+      "previous_sibling": "node_9_1547209274264"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Formulaire de contact en ligne : https://www.solutec.fr/fr/contact/"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_8_1547209258212",
+      "metadata": {},
+      "conditions": "@liens:(contact_solutec)",
+      "dialog_node": "node_12_1547209287846",
+      "previous_sibling": "node_11_1547209285398"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Facebook : https://www.facebook.com/Solutec-500048140189961/"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1547209258212",
+      "metadata": {},
+      "conditions": "@liens:facebook",
+      "dialog_node": "node_9_1547209274264"
+    },
+    {
+      "type": "standard",
+      "title": "Le second entretien",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Lors de notre seconde rencontre, nous vous apportons des exemples plus pr\u00e9cis de missions qui peuvent vous \u00eatre propos\u00e9es chez nos clients, et abordons plus en d\u00e9tails les perspectives d\u2019\u00e9volution qui y sont associ\u00e9es.\n\n\u00c0 l\u2019issue de ces deux entretiens, nous nous engageons \u00e0 vous donner rapidement notre r\u00e9ponse."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "D\u00e9poser mon CV",
+                "value": {
+                  "input": {
+                    "text": "cv"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_9_1547205475649",
+      "metadata": {},
+      "conditions": "@recrutement:(Le second entretien)",
+      "dialog_node": "node_1_1547205892030"
+    },
+    {
+      "type": "standard",
+      "title": "Qualit\u00e9",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Qualit\u00e9\nSOLUTEC apporte la garantie de prestations \u00e0 haute valeur ajout\u00e9e, un suivi personnalis\u00e9 et de l\u2019ambition pour vos projets."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1546867015192",
+      "metadata": {},
+      "conditions": "@valeur:qualit\u00e9",
+      "dialog_node": "node_11_1546871506932",
+      "previous_sibling": "node_1_1546871209033"
+    },
+    {
+      "type": "standard",
+      "title": "Ind\u00e9pendance & solidit\u00e9",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Notre ind\u00e9pendance fait notre diff\u00e9rence ! Actionnariat interne, b\u00e9n\u00e9fices r\u00e9inject\u00e9s chaque ann\u00e9e : SOLUTEC est une entreprise autonome. Notre bonne sant\u00e9 financi\u00e8re nous permet d\u2019envisager sereinement l\u2019avenir et de nous investir dans tous les projets."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1546867015192",
+      "metadata": {},
+      "conditions": "@valeur:(ind\u00e9pendance & solidit\u00e9)",
+      "dialog_node": "node_9_1546880530589",
+      "previous_sibling": "node_7_1546880413451"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Plus de d\u00e9tails sur :"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1546867015192",
+      "disabled": true,
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_12_1546869066985",
+      "previous_sibling": "node_8_1546880528630"
+    },
+    {
+      "type": "response_condition",
+      "output": {},
+      "parent": "node_1_1546867015192",
+      "disabled": true,
+      "metadata": {},
+      "dialog_node": "node_1_1546867746395",
+      "previous_sibling": "handler_12_1546869066985"
+    },
+    {
+      "type": "standard",
+      "title": "P\u00e9rennit\u00e9",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "P\u00e9rennit\u00e9\nLa p\u00e9rennit\u00e9 des relations que nous avons su entretenir avec nos clients est la preuve de notre excellence sur le long terme."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1546867015192",
+      "metadata": {},
+      "conditions": "@valeur:p\u00e9rennit\u00e9",
+      "dialog_node": "node_12_1546871543532",
+      "previous_sibling": "node_11_1546871506932"
+    },
+    {
+      "type": "standard",
+      "title": "Confiance",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Confiance\nPour cr\u00e9er des partenariats durables, nous misons sur la transparence et une vision \u00e0 long terme de nos partenariats."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1546867015192",
+      "metadata": {},
+      "conditions": "@valeur:confiance",
+      "dialog_node": "node_1_1546871209033",
+      "previous_sibling": "node_22_1546869229281"
+    },
+    {
+      "type": "standard",
+      "title": "Proximit\u00e9",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Proximit\u00e9\nPour se rapprocher des ambitions de nos clients et garantir notre implication."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1546867015192",
+      "metadata": {},
+      "conditions": "@valeur:proximit\u00e9",
+      "dialog_node": "node_21_1546869188104",
+      "previous_sibling": "slot_8_1546871442997"
+    },
+    {
+      "type": "standard",
+      "title": "Ecoute",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ecoute\nSOLUTEC envisage les relations clients comme des relations humaines. Ecoute active et dialogue sont les clefs de nos succ\u00e8s."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1546867015192",
+      "metadata": {},
+      "conditions": "@valeur:\u00e9coute",
+      "dialog_node": "node_22_1546869229281",
+      "previous_sibling": "node_21_1546869188104"
+    },
+    {
+      "type": "standard",
+      "title": "Performance & excellence",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Notre excellence s\u2019appuie aussi sur le background et l\u2019expertise op\u00e9rationnelle de nos \u00e9quipes. Notre processus de recrutement, exigeant et rigoureux, nous permet d\u2019identifier les meilleurs potentiels et les candidats qui sont en phase avec l\u2019esprit SOLUTEC."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1546867015192",
+      "metadata": {},
+      "conditions": "@valeur:(performance & excellence)",
+      "dialog_node": "node_8_1546880528630",
+      "previous_sibling": "node_9_1546880530589"
+    },
+    {
+      "type": "standard",
+      "title": "Professionnalisme",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Professionnalisme\nEtre professionnel ne s\u2019improvise pas, cela se travaille. Depuis sa cr\u00e9ation, SOLUTEC am\u00e9liore et d\u00e9veloppe son savoir-faire de fa\u00e7on continue."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1546867015192",
+      "metadata": {},
+      "conditions": "@valeur:professionnalisme",
+      "dialog_node": "node_13_1546871570580",
+      "previous_sibling": "node_12_1546871543532"
+    },
+    {
+      "type": "standard",
+      "title": "Exp\u00e9rience humaine",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Notre force : cultiver la proximit\u00e9 et entretenir des relations humaines de confiance avec l\u2019ensemble de nos interlocuteurs.\nSOLUTEC garantit un interlocuteur d\u00e9di\u00e9 pour anticiper vos besoins et r\u00e9pondre \u00e0 vos attentes."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1546867015192",
+      "metadata": {},
+      "conditions": "@valeur:(exp\u00e9rience humaine)",
+      "dialog_node": "node_7_1546880413451",
+      "previous_sibling": "node_13_1546871570580"
+    },
+    {
+      "type": "slot",
+      "parent": "node_1_1546867015192",
+      "dialog_node": "slot_8_1546871442997"
+    },
+    {
+      "type": "standard",
+      "title": "Paris",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "86 boulevard Haussmann\n75008 Paris\nT\u00e9l : 01 44 68 58 58"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1547206074007",
+      "metadata": {},
+      "conditions": "@agences:Paris",
+      "dialog_node": "node_4_1547206350021",
+      "previous_sibling": "node_3_1547206348566"
+    },
+    {
+      "type": "standard",
+      "title": "Toulouse",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Immeuble Atria\n8 Esplanade Compans Caffarelli\n31000 Toulouse\nT\u00e9l : 05 67 80 10 75"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1547206074007",
+      "metadata": {},
+      "conditions": "@agences:Toulouse",
+      "dialog_node": "node_7_1547206354238",
+      "previous_sibling": "node_6_1547206352983"
+    },
+    {
+      "type": "standard",
+      "title": "Contact",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1547206074007",
+      "metadata": {},
+      "dialog_node": "node_8_1547206535358",
+      "previous_sibling": "node_7_1547206354238"
+    },
+    {
+      "type": "standard",
+      "title": "Bordeaux",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Immeuble Lumine & Sens\n32 All\u00e9e de Boutaut\nCS 80112\n33070 Bordeaux cedex\nT\u00e9l : 05 40 25 83 00"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1547206074007",
+      "metadata": {},
+      "conditions": "@agences:Bordeaux",
+      "dialog_node": "node_6_1547206352983",
+      "previous_sibling": "node_5_1547206351414"
+    },
+    {
+      "type": "standard",
+      "title": "Nantes",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Immeuble Skyline\n22 Mail Pablo Picasso\n44000 Nantes\nT\u00e9l : 02 85 52 41 98"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1547206074007",
+      "metadata": {},
+      "conditions": "@agences:Nantes",
+      "dialog_node": "node_5_1547206351414",
+      "previous_sibling": "node_4_1547206350021"
+    },
+    {
+      "type": "standard",
+      "title": "Lyon",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "63 Avenue Galline\nCS 60275\n69625 Villeurbanne cedex\nT\u00e9l : 04 78 64 32 92"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1547206074007",
+      "metadata": {},
+      "conditions": "@agences:Lyon",
+      "dialog_node": "node_3_1547206348566"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_23_1546869742311",
+      "event_name": "focus",
+      "dialog_node": "handler_25_1546869742311",
+      "previous_sibling": "handler_24_1546869742311"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_23_1546869742311",
+      "event_name": "input",
+      "dialog_node": "handler_24_1546869742311"
+    },
+    {
+      "type": "standard",
+      "title": "Pour qui ?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Issu d\u2019une Ecole d\u2019Ing\u00e9nieurs G\u00e9n\u00e9raliste ou d\u2019un parcours Universitaire Bac+5 scientifique, vous \u00eates int\u00e9ress\u00e9 par les nouvelles technologies et les Syst\u00e8mes d\u2019Information. Votre esprit scientifique, votre fibre d\u2019ing\u00e9nieur et votre sens du service vous donneront une r\u00e9elle valeur ajout\u00e9e sur nos projets.  Vous pourrez ainsi vous appuyer sur votre parcours initial et vos diff\u00e9rentes comp\u00e9tences afin d\u2019\u00e9voluer rapidement sur nos m\u00e9tiers."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Comment ?",
+                "value": {
+                  "input": {
+                    "text": "metiers_comment"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_15_1547210021840",
+      "metadata": {},
+      "conditions": "@metiers:metiers_qui",
+      "dialog_node": "node_1_1547223484456",
+      "previous_sibling": "node_1_1547216923860"
+    },
+    {
+      "type": "standard",
+      "title": "Pr\u00e9sentation de nos m\u00e9tiers",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Les m\u00e9tiers techniques et fonctionnels de SOLUTEC :"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "D\u00e9veloppement applicatif",
+                "value": {
+                  "input": {
+                    "text": "D\u00e9veloppement applicatif"
+                  }
+                }
+              },
+              {
+                "label": "Infrastructure & Exploitation",
+                "value": {
+                  "input": {
+                    "text": "Infrastructure & Exploitation"
+                  }
+                }
+              },
+              {
+                "label": "Accompagnement & Gestion de projet",
+                "value": {
+                  "input": {
+                    "text": "Accompagnement & Gestion de projet"
+                  }
+                }
+              },
+              {
+                "label": "Business development",
+                "value": {
+                  "input": {
+                    "text": "Business development"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_15_1547210021840",
+      "metadata": {},
+      "conditions": "@metiers:(Pr\u00e9sentation de nos m\u00e9tiers)",
+      "dialog_node": "node_1_1547216923860"
+    },
+    {
+      "type": "standard",
+      "title": "Comment ?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "SOLUTEC vous int\u00e8gre en CDI et vous forme aux m\u00e9tiers de l\u2019IT via un parcours solide bas\u00e9 sur l\u2019accompagnement :\n\n- Embauche sur la base du potentiel d\u00e9tect\u00e9\n- Formation par des experts pendant votre CDI\n- Mont\u00e9e en comp\u00e9tences dans le cadre de nos missions\n\nNous vous accompagnons dans ce challenge et vous assurons un suivi de carri\u00e8re personnalis\u00e9."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Quels domaines ?",
+                "value": {
+                  "input": {
+                    "text": "metiers_domaines"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1547223484456",
+      "metadata": {},
+      "conditions": "@metiers:metiers_comment",
+      "dialog_node": "node_3_1547223908277"
+    },
+    {
+      "type": "standard",
+      "title": "Pr\u00e9cisions Accompagnement et Gestion de projet",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Pr\u00eat \u00e0 relever le d\u00e9fi ?\n\nDans des environnements vari\u00e9s et fonctionnellement riches, vos initiatives permettront d\u2019ouvrir de nouvelles perspectives \u00e0 nos clients, et votre capacit\u00e9 d\u2019adaptation de faire face \u00e0 toutes les situations.\n\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://i.imgur.com/Nzc9WtW.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_4_1547217773048",
+      "metadata": {},
+      "conditions": "@metiers:Pr\u00e9cisions_Accompagnement_Gestion",
+      "dialog_node": "node_3_1547219516999"
+    },
+    {
+      "type": "slot",
+      "parent": "node_1_1546865974860",
+      "dialog_node": "slot_23_1546869742311",
+      "previous_sibling": "node_2_1548414701123"
+    },
+    {
+      "type": "standard",
+      "title": "Lien vid\u00e9o pr\u00e9sentation",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "<a href=\"https://www.solutec.fr/fr/wp-content/uploads/sites/2/2018/12/decouvrez-SOLUTEC.mp4\">Cliquez ici !</a>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1546865974860",
+      "metadata": {},
+      "conditions": "@video:lien_video",
+      "dialog_node": "node_2_1548414701123"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Pour chacun de ses clients, SOLUTEC propose un ensemble de services : assistance unitaire et group\u00e9e, p\u00f4les de comp\u00e9tences, centres de services, offres forfaitaires int\u00e9grales\u2026"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1547199219264",
+      "disabled": true,
+      "metadata": {},
+      "conditions": "#Demande_poles_competences",
+      "dialog_node": "node_7_1547201404348",
+      "previous_sibling": "node_5_1547200275997"
+    },
+    {
+      "type": "standard",
+      "title": "Infrastructure et exploitation",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Infrastructure et exploitation :\n\n- Conception et dimensionnement des architectures techniques\n- Administration et exploitation des outils, syst\u00e8mes, SGBD ou r\u00e9seaux\n- Int\u00e9gration des applications sur diff\u00e9rents environnements\n- Gestion des changements\n- Coordination et pilotage des mises en production\n- Gestion des incidents\n- Gestion de crises\n- Support N2/N3\n- R\u00e9daction de documentation technique\n- Am\u00e9lioration continue \u2013 Veille technologique"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1547199219264",
+      "metadata": {},
+      "conditions": "@competences:(Infrastructure et exploitation)",
+      "dialog_node": "node_5_1547200275997",
+      "previous_sibling": "node_4_1547200196417"
+    },
+    {
+      "type": "standard",
+      "title": "Coordination et gestion de projet",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Gestion de projet :\n\n- Cadrage\n- Animation de r\u00e9unions\n- Chiffrage\n- Planification\n- Coordination\n- Management d\u2019\u00e9quipe\n- Gestion budg\u00e9taire\n- Reporting, communication et suivi de projet\n- Suivi des performances"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1547199219264",
+      "metadata": {},
+      "conditions": "@competences:(Coordination et gestion de projet)",
+      "dialog_node": "node_2_1547199959573",
+      "previous_sibling": "node_1_1547199864074"
+    },
+    {
+      "type": "standard",
+      "title": "D\u00e9veloppement applicatif",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "D\u00e9veloppement applicatif :\n\n- Analyse du besoin\n- Conception\n- R\u00e9daction des sp\u00e9cifications d\u00e9taill\u00e9es\n- D\u00e9veloppement\n- R\u00e9alisation des tests\n- Accompagnement sur la recette\n- Maintenance corrective et \u00e9volutive"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1547199219264",
+      "metadata": {},
+      "conditions": "@competences:(D\u00e9veloppement applicatif)",
+      "dialog_node": "node_4_1547200196417",
+      "previous_sibling": "node_2_1547199959573"
+    },
+    {
+      "type": "standard",
+      "title": "Accompagnement de projet et transformation digitale",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Notre accompagnement :\n\n- Recueil du besoin\n- Cadrage du projet : planification et chiffrage\n- R\u00e9daction du cahier des charges et des sp\u00e9cifications g\u00e9n\u00e9rales\n- Coordination d\u2019\u00e9quipes\n- Respect des normes et process\n- Recette\n- Conduite du changement et formation"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1547199219264",
+      "metadata": {},
+      "conditions": "@competences:(Accompagnement de projet et transformation digitale)",
+      "dialog_node": "node_1_1547199864074"
+    },
+    {
+      "type": "standard",
+      "title": "Pr\u00e9cisions D\u00e9veloppement applicatif",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Pr\u00eat \u00e0 relever le d\u00e9fi ?\n\nEn rejoignant nos \u00e9quipes, vous interviendrez sur des projets d\u2019envergure liant probl\u00e9matiques techniques et architectures logicielles complexes. PHP, Java, C#, Javascript, C++, Python\u2026 Quels que soient votre niveau d\u2019expertise, vos langages et frameworks de pr\u00e9dilection, nous saurons vous proposer LE challenge \u00e0 relever !\n\nNos domaines d\u2019intervention :\n\n- D\u00e9veloppement Web (site \u00e0 fort trafic / e-commerce\u2026).\n- Applications mobiles (native / cross-platform).\n- Applications client lourd et back-office.\n- Informatique d\u00e9cisionnelle et big data.\n\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "source": "https://i.imgur.com/R80ZVpo.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_2_1547217770193",
+      "metadata": {},
+      "conditions": "@metiers:Pr\u00e9cisions_d\u00e9veloppement_applicatif",
+      "dialog_node": "node_1_1547218770081"
+    },
+    {
+      "type": "standard",
+      "title": "Mot du PDG",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "\u00ab Consultant SOLUTEC \u00e0 mes d\u00e9buts j\u2019ai pu b\u00e9n\u00e9ficier d\u2019un v\u00e9ritable tremplin professionnel au sein de cette entreprise. Je vous propose d\u00e9sormais un challenge passionnant dans une structure performante et solide o\u00f9 r\u00e8gnent de v\u00e9ritables relations humaines. A vous de relever le d\u00e9fi !  \u00bb"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1547202029189",
+      "metadata": {},
+      "conditions": "@pdg:pdg",
+      "dialog_node": "node_2_1547203172205"
+    },
+    {
+      "type": "standard",
+      "title": "Argent",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sur l'ann\u00e9e 2017, nous avons r\u00e9alis\u00e9 un chiffre d'affaires de 71 994 500,00 \u20ac.\n\nLe total du bilan a augment\u00e9 de 14,16 % entre 2016 et 2017."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#Demande_argent",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1548413321759",
+      "previous_sibling": "node_5_1547225084808"
+    },
+    {
+      "type": "standard",
+      "title": "Pourquoi choisir SOLUTEC",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Envie d\u2019une carri\u00e8re dynamique, qui vous ouvre des perspectives ? Rejoignez SOLUTEC et r\u00e9v\u00e9lez vos talents ! Affinez votre projet professionnel et montez rapidement en comp\u00e9tences chez nos diff\u00e9rents clients.\n\nPourquoi SOLUTEC ?\n\n- Parce que nous sommes un incubateur de talents.\n- Parce que nous misons sur votre \u00e9panouissement.\n- Parce que nous vous offrons des opportunit\u00e9s d\u2019\u00e9voluer dans diff\u00e9rents m\u00e9tiers.\n- Parce que nous avons les moyens d\u2019\u00e9largir votre expertise.\n- Parce que nous souhaitons que votre carri\u00e8re vous corresponde."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#Demande_choix_SOLUTEC",
+      "dialog_node": "node_2_1547204066513",
+      "previous_sibling": "node_3_1547200193487"
+    },
+    {
+      "type": "standard",
+      "title": "Nos valeurs",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Le service est une passion qui nous rassemble et nous permet de donner du sens \u00e0 nos relations clients.\nNos valeurs et ambitions sont :"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Proximit\u00e9",
+                "value": {
+                  "input": {
+                    "text": "proximit\u00e9"
+                  }
+                }
+              },
+              {
+                "label": "Ecoute",
+                "value": {
+                  "input": {
+                    "text": "\u00e9coute"
+                  }
+                }
+              },
+              {
+                "label": "Confiance",
+                "value": {
+                  "input": {
+                    "text": "confiance"
+                  }
+                }
+              },
+              {
+                "label": "Qualit\u00e9",
+                "value": {
+                  "input": {
+                    "text": "qualit\u00e9"
+                  }
+                }
+              },
+              {
+                "label": "P\u00e9rennit\u00e9",
+                "value": {
+                  "input": {
+                    "text": "p\u00e9rennit\u00e9"
+                  }
+                }
+              },
+              {
+                "label": "Professionnalisme",
+                "value": {
+                  "input": {
+                    "text": "professionalisme"
+                  }
+                }
+              },
+              {
+                "label": "Exp\u00e9rience humaine",
+                "value": {
+                  "input": {
+                    "text": "exp\u00e9rience humaine"
+                  }
+                }
+              },
+              {
+                "label": "Ind\u00e9pendance & solidit\u00e9",
+                "value": {
+                  "input": {
+                    "text": "ind\u00e9pendance & solidit\u00e9"
+                  }
+                }
+              },
+              {
+                "label": "Performance & excellence",
+                "value": {
+                  "input": {
+                    "text": "performance & excellence"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "metadata": {
+        "fallback": "leave",
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#Demande_valeurs || @valeur",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1546867015192",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_1_1548411057623"
+    },
+    {
+      "type": "standard",
+      "title": "Statistiques",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Voici les chiffres essentiels de notre entreprise :"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://i.imgur.com/vl0BHCd.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#Demande_statistiques",
+      "dialog_node": "node_5_1547225084808",
+      "previous_sibling": "node_3_1547224076611"
+    },
+    {
+      "type": "standard",
+      "title": "Liens",
+      "output": {},
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@liens",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_8_1547209258212",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_5_1547220604112"
+    },
+    {
+      "type": "standard",
+      "title": "Demande comprise, mais sans r\u00e9ponses",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Je suis d\u00e9sol\u00e9, mais je n'ai pas acc\u00e8s \u00e0 cette information.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_9_1547206722388"
+      },
+      "conditions": "#Demande_comprise_mais_sans_reponse",
+      "dialog_node": "node_1_1548426673005",
+      "previous_sibling": "node_2_1547317942368"
+    },
+    {
+      "type": "standard",
+      "title": "Engagement et politique",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "C\u2019est un imp\u00e9ratif : nous veillons \u00e0 inscrire notre politique de croissance dans une d\u00e9marche de d\u00e9veloppement durable, respectueuse de l\u2019environnement et des Hommes.\nCette ambition a \u00e9t\u00e9 r\u00e9compens\u00e9e par la certification Gold RSE d\u2019EcoVadis et nous fait figurer parmi le TOP 5% des fournisseurs \u00e9valu\u00e9s dans toutes les cat\u00e9gories.\n\nEn savoir plus sur nos engagements et notre politique :"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Engagements durables",
+                "value": {
+                  "input": {
+                    "text": "engagements durables"
+                  }
+                }
+              },
+              {
+                "label": "Politique RH",
+                "value": {
+                  "input": {
+                    "text": "politique RH"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#Demande_engagement",
+      "dialog_node": "node_12_1546883524692",
+      "previous_sibling": "node_11_1546881967716"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "D\u00e9sol\u00e9 de ne pas pouvoir faire mieux. N'h\u00e9sitez pas \u00e0 me poser une autre question."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#General_Negative_Feedback",
+      "dialog_node": "node_2_1547318893205",
+      "previous_sibling": "node_1_1547318778521"
+    },
+    {
+      "type": "standard",
+      "title": "Accompagnement personnalis\u00e9",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Vous souhaitez construire un projet professionnel qui vous ressemble ?\n\nLa diff\u00e9rence SOLUTEC passe par notre accompagnement :"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Votre parcours",
+                "value": {
+                  "input": {
+                    "text": "Votre parcours"
+                  }
+                }
+              },
+              {
+                "label": "Mont\u00e9e en comp\u00e9tences",
+                "value": {
+                  "input": {
+                    "text": "Mont\u00e9e en comp\u00e9tences"
+                  }
+                }
+              },
+              {
+                "label": "Point sur votre carri\u00e8re",
+                "value": {
+                  "input": {
+                    "text": "Point sur votre carri\u00e8re"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#Demande_accompagnement_personnel",
+      "dialog_node": "node_3_1547204757076",
+      "previous_sibling": "node_2_1547204066513"
+    },
+    {
+      "type": "standard",
+      "title": "Recrutement en deux \u00e9tapes",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Votre candidature sera prise en charge par les \u00e9quipes recrutement de SOLUTEC.\nNotre process est r\u00e9actif, seulement deux entretiens."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "D\u00e9roulement du premier entretien",
+                "value": {
+                  "input": {
+                    "text": "Le premier entretien"
+                  }
+                }
+              },
+              {
+                "label": "D\u00e9poser mon CV",
+                "value": {
+                  "input": {
+                    "text": "cv"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#Demande_recrutement",
+      "dialog_node": "node_8_1547205254261",
+      "previous_sibling": "node_3_1547204757076"
+    },
+    {
+      "type": "standard",
+      "title": "A propos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "ESN (ou SSII) sp\u00e9cialis\u00e9e en ing\u00e9nierie, conseil et services informatiques, nous accompagnons nos clients dans toutes les phases de leurs projets.\n\nTransformation num\u00e9rique, digitalisation de l\u2019entreprise, accompagnement de projet & conseil IT, production et exploitation des syst\u00e8mes d\u2019information : SOLUTEC s\u2019implique dans l\u2019atteinte des objectifs de ses clients."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Lien vers la vid\u00e9o de pr\u00e9sentation",
+                "value": {
+                  "input": {
+                    "text": "lien_video"
+                  }
+                }
+              },
+              {
+                "label": "En savoir plus sur nos m\u00e9tiers",
+                "value": {
+                  "input": {
+                    "text": "metiers"
+                  }
+                }
+              },
+              {
+                "label": "En savoir plus sur nos p\u00f4les de comp\u00e9tences",
+                "value": {
+                  "input": {
+                    "text": "competences"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "metadata": {
+        "fallback": "leave"
+      },
+      "conditions": "#Demande_pr\u00e9sentation",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1546865974860",
+      "digress_out": "allow_all",
+      "previous_sibling": "Bienvenue"
+    },
+    {
+      "type": "standard",
+      "title": "P\u00f4les de comp\u00e9tences",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Les 4 p\u00f4les de comp\u00e9tences SOLUTEC r\u00e9unissent un large spectre de technologies et de m\u00e9tiers, dans toutes les phases projet. Nous garantissons \u00e0 nos clients, quel que soit leur syst\u00e8me d\u2019information, un accompagnement sur mesure :"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Accompagnement de projet et transformation digitale",
+                "value": {
+                  "input": {
+                    "text": "Accompagnement de projet et transformation digitale"
+                  }
+                }
+              },
+              {
+                "label": "D\u00e9veloppement applicatif",
+                "value": {
+                  "input": {
+                    "text": "D\u00e9veloppement applicatif"
+                  }
+                }
+              },
+              {
+                "label": "Infrastructure et exploitation",
+                "value": {
+                  "input": {
+                    "text": "Infrastructure et exploitation"
+                  }
+                }
+              },
+              {
+                "label": "Coordination et gestion de projet",
+                "value": {
+                  "input": {
+                    "text": "Coordination et gestion de projet"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#Demande_poles_competences",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1547199219264",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_12_1546883524692"
+    },
+    {
+      "type": "standard",
+      "title": "M\u00e9tiers",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Que voulez-vous savoir sur nos m\u00e9tiers ?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Pr\u00e9sentation de nos m\u00e9tiers",
+                "value": {
+                  "input": {
+                    "text": "Pr\u00e9sentation de nos m\u00e9tiers"
+                  }
+                }
+              },
+              {
+                "label": "Pour qui ?",
+                "value": {
+                  "input": {
+                    "text": "metiers_qui"
+                  }
+                }
+              },
+              {
+                "label": "Catalogue des emplois",
+                "value": {
+                  "input": {
+                    "text": "emplois"
+                  }
+                }
+              },
+              {
+                "label": "Catalogue des stages",
+                "value": {
+                  "input": {
+                    "text": "stages"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#Demande_m\u00e9tiers || @technologiesEtm\u00e9tiers",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_15_1547210021840",
+      "previous_sibling": "node_10_1547207166458"
+    },
+    {
+      "type": "standard",
+      "title": "Nos agences",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Nos agences : "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Lyon (si\u00e8ge social)",
+                "value": {
+                  "input": {
+                    "text": "Lyon"
+                  }
+                }
+              },
+              {
+                "label": "Paris",
+                "value": {
+                  "input": {
+                    "text": "Paris"
+                  }
+                }
+              },
+              {
+                "label": "Nantes",
+                "value": {
+                  "input": {
+                    "text": "Nantes"
+                  }
+                }
+              },
+              {
+                "label": "Bordeaux",
+                "value": {
+                  "input": {
+                    "text": "Bordeaux"
+                  }
+                }
+              },
+              {
+                "label": "Toulouse",
+                "value": {
+                  "input": {
+                    "text": "Toulouse"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#Demande_agences",
+      "dialog_node": "node_2_1547206074007",
+      "previous_sibling": "node_8_1547205254261"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ravi d'avoir pu vous aider. N'h\u00e9sitez pas \u00e0 me poser une autre question."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#General_Positive_Feedback",
+      "dialog_node": "node_1_1547318778521",
+      "previous_sibling": "node_8_1547209258212"
+    },
+    {
+      "type": "standard",
+      "title": "lab'SOLUTEC",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Le lab est une entit\u00e9 de SOLUTEC d\u00e9di\u00e9e \u00e0 l\u2019innovation et au partage de connaissances. Nous travaillons sur des sujets \u00e0 la pointe de la technologie afin de trouver et mettre en place de nouvelles solutions pour nos clients :\n\n- Machine Learning \u2013 intelligence artificielle\n- Big data \u2013 data science\n- Objets connect\u00e9s\n- R\u00e9alit\u00e9 virtuelle et augment\u00e9e\n- Infrastructure et s\u00e9curit\u00e9 informatique\n- Blockchain\n- Veille technologique\n- Application web et mobile\n- Cloud"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://i.imgur.com/HiOGwLs.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "@lab",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_11_1546881967716",
+      "previous_sibling": "node_10_1546881286125"
+    },
+    {
+      "type": "standard",
+      "title": "Nos actualit\u00e9s",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Vous trouverez les derni\u00e8res actualit\u00e9s de SOLUTEC ici :"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Le site SOLUTEC",
+                "value": {
+                  "input": {
+                    "text": "actualit\u00e9s_solutec"
+                  }
+                }
+              },
+              {
+                "label": "LinkedIn",
+                "value": {
+                  "input": {
+                    "text": "linkedin"
+                  }
+                }
+              },
+              {
+                "label": "Facebook",
+                "value": {
+                  "input": {
+                    "text": "facebook"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#Demande_actualites",
+      "dialog_node": "node_10_1547207166458",
+      "previous_sibling": "node_9_1547206722388"
+    },
+    {
+      "type": "standard",
+      "title": "Innovation",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Dans notre secteur d\u2019activit\u00e9, innover c\u2019est perdurer.\nLes m\u00e9tiers de l\u2019ing\u00e9nierie informatique sont en constante mutation : nous choisir, c\u2019est l\u2019assurance de b\u00e9n\u00e9ficier d\u2019\u00e9quipes ma\u00eetrisant les derni\u00e8res avanc\u00e9es technologiques et m\u00e9thodologiques.\n\nSOLUTEC poss\u00e8de une structure interne d\u00e9di\u00e9e \u00e0 l\u2019innovation : le lab\u2019SOLUTEC. Cette cellule nous permet de travailler aujourd\u2019hui sur les solutions techniques et les m\u00e9thodologies de gestion de projet de demain.\n\nSolutions de R&D ou POC dans le cadre de partenariats d\u2019innovations avec nos clients, le lab\u2019SOLUTEC cultive l\u2019ing\u00e9niosit\u00e9 et la disruption technologique !"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "D\u00e9couvrir le lab'SOLUTEC",
+                "value": {
+                  "input": {
+                    "text": "lab"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#Demande_innovation",
+      "dialog_node": "node_10_1546881286125",
+      "previous_sibling": "node_1_1546867015192"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Bonjour, que voulez-vous savoir ?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#General_Greetings",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1547317704016",
+      "previous_sibling": "node_3_1547318130122"
+    },
+    {
+      "type": "standard",
+      "title": "Nous contacter",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Vous pouvez nous contacter aux adresses suivantes :"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "formulaire de contact SOLUTEC",
+                "value": {
+                  "input": {
+                    "text": "contact_solutec"
+                  }
+                }
+              },
+              {
+                "label": "LinkedIn",
+                "value": {
+                  "input": {
+                    "text": "linkedin"
+                  }
+                }
+              },
+              {
+                "label": "Facebook",
+                "value": {
+                  "input": {
+                    "text": "facebook"
+                  }
+                }
+              },
+              {
+                "label": "adresses et tel. de nos agences",
+                "value": {
+                  "input": {
+                    "text": "agences"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#General_Connect_to_Agent",
+      "dialog_node": "node_9_1547206722388",
+      "previous_sibling": "node_2_1547206074007"
+    },
+    {
+      "type": "standard",
+      "title": "Domaines",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Nous avons l\u2019occasion de travailler pour nos clients dans les secteurs suivants :\n\n- Banque/Assurance/Finance\n- Energie\n- Industrie (chimique, pharmaceutique\u2026)\n- Grande distribution\n- T\u00e9l\u00e9communication et Media\n- Service\n- Transports"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#Demande_domaines",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_3_1547224076611",
+      "previous_sibling": "node_15_1547210021840"
+    },
+    {
+      "type": "standard",
+      "title": "Notre directeur",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Notre directeur g\u00e9n\u00e9ral actuel est M. Nicolas INVERNIZZI."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Voir le mot du directeur g\u00e9n\u00e9ral.",
+                "value": {
+                  "input": {
+                    "text": "pdg"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#Demande_pdg",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1547202029189",
+      "previous_sibling": "node_1_1546865974860"
+    },
+    {
+      "type": "standard",
+      "title": "Stages",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Que voulez-vous savoir sur nos stages ?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Pr\u00e9sentation de nos stages",
+                "value": {
+                  "input": {
+                    "text": "presentation_stages"
+                  }
+                }
+              },
+              {
+                "label": "Catalogue des stages",
+                "value": {
+                  "input": {
+                    "text": "stages"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#Demande_stages",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_5_1547220604112",
+      "previous_sibling": "node_1_1548413321759"
+    },
+    {
+      "type": "standard",
+      "title": "Nos clients & partenaires",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Nous intervenons dans tous les secteurs d\u2019activit\u00e9s aupr\u00e8s de clients grands comptes qui nous renouvellent leur confiance chaque ann\u00e9e."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://i.imgur.com/Vo6qMp8.png",
+            "response_type": "image"
+          },
+          {
+            "source": "https://i.imgur.com/jWmBfhH.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#Demande_clients",
+      "dialog_node": "node_3_1547200193487",
+      "previous_sibling": "node_1_1547199219264"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Dans le cadre de ma mission, j'enregistre ce que vous \u00e9crivez pour pouvoir m'entra\u00eener dessus et am\u00e9liorer mes r\u00e9ponses. Mais n'ayez crainte, je n'enregistre rien d'autre en dehors de la conversation ! (ni cookie, ni quoi que ce soit) ."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#General_Security_Assurance",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_3_1547318130122",
+      "previous_sibling": "node_4_1547318132437"
+    },
+    {
+      "type": "standard",
+      "title": "Tout le reste",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Je n'ai pas compris. Vous pouvez essayer de reformuler."
+              },
+              {
+                "text": "Pouvez-vous dire cela autrement ? Je ne comprends pas."
+              },
+              {
+                "text": "Je n'ai pas compris ce que vous voulez dire."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "anything_else",
+      "dialog_node": "Tout le reste",
+      "previous_sibling": "node_1_1548426673005"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Je suis un robot et ma t\u00e2che est de r\u00e9pondre \u00e0 vos questions \u00e0 propos de SOLUTEC. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#General_Human_or_Bot",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_4_1547318132437",
+      "previous_sibling": "node_2_1547318893205"
+    },
+    {
+      "type": "standard",
+      "title": "Cr\u00e9ation de SOLUTEC",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "SOLUTEC est une ESN fond\u00e9e en 1991 par M. Jean Bruy\u00e8re."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#Demande_cr\u00e9ation",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1548411057623",
+      "previous_sibling": "node_1_1547202029189"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A bient\u00f4t !"
+              },
+              {
+                "text": "Ravi d'avoir pu vous aider, \u00e0 bient\u00f4t !"
+              },
+              {
+                "text": "Au revoir ! "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#General_Ending",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_2_1547317942368",
+      "previous_sibling": "node_1_1547317704016"
+    },
+    {
+      "type": "standard",
+      "title": "Bienvenue",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Bonjour, je suis le Chatbot SOLUTEC, comment puis-je vous aider ?"
+              },
+              {
+                "text": "Bonjour, je suis le Chatbot SOLUTEC, posez-moi vos questions."
+              },
+              {
+                "text": "Bonjour, je suis le Chatbot SOLUTEC, je suis l\u00e0 pour r\u00e9pondre \u00e0 vos questions."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "welcome",
+      "digress_in": "does_not_return",
+      "dialog_node": "Bienvenue"
+    }
+  ],
+  "workspace_id": "03ca4790-466c-45a3-a556-f54b7bbb9b81",
+  "counterexamples": [
+    {
+      "text": "aveez-vous un linkedin ?"
+    },
+    {
+      "text": "avez-vous un facebook ?"
+    },
+    {
+      "text": "avez-vous un linkedin ?"
+    },
+    {
+      "text": "comment t'appelles-tu ?"
+    },
+    {
+      "text": "emplois"
+    },
+    {
+      "text": "la p\u00e9rennit\u00e9 chez solutec ?"
+    },
+    {
+      "text": "Quel est l'organigramme?"
+    },
+    {
+      "text": "stages"
+    }
+  ],
+  "system_settings": {
+    "tooling": {
+      "store_generic_responses": true
+    }
+  },
+  "learning_opt_out": false,
+  "status": "Available"
+}

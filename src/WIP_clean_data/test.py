@@ -1,4 +1,3 @@
-import re
 from tkinter import *
 from functions import *
 

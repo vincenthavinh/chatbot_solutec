@@ -48,6 +48,7 @@ ci
 comme
 comment
 complètement
+côté
 d
 dans
 davantage
@@ -124,6 +125,7 @@ m
 ma
 maintenant
 mais
+meilleurs
 mes
 moins
 mon
@@ -218,6 +220,7 @@ tout
 tout à fait
 toutefois
 toutes
+travers
 trop
 très
 tu
